@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #210203
+}
+
+h1 h2 h3 {
+	color: #d3b99f
+}
+
+h1 {
+	background-color: #c17767;
+	font-size: 40px ;
+	color: #d3b99f;
+	font-family: "sans-serif";
+	text-align: center;
+	text-transform: uppercase
+}
+
+h2 {
+	background-color: #c17767;
+	font-size: 35px;
+	color: #d3b99f;
+	font-family: "Franklin Gothic Bold"
+}
+
+h3 {
+	font-size: 30px;
+	color: #d3b99f;
+	font-family: "Arial Black"
+}
+
+p {
+	font-size: 15px;
+	Font-family: "Arial Black";
+	margin-left: auto;
+	line-height: normal;
+	color: #d3b99f
+}
+
+li {
+	margin-bottom: auto
+}
+
+footer {
+	text-align: center
+}
+
+.select {
+	color: #6d98ba
+}
+
+nav p {
+	text-align: center
+}

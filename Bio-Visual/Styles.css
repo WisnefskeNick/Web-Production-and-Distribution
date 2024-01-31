@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #D3B99F;
+	background-image:url("Images/images.jpg");
+}
+
+h1 h2 h3 {
+	color: #d3b99f
+}
+
+h1 {
+	background-color: #c17767;
+	font-size: 40px ;
+	color: #d3b99f;
+	font-family: "sans-serif";
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-image:linear-gradient(#210203, #c17767);
+}
+
+h2 {
+	background-color: #c17767;
+	font-size: 35px;
+	color: #d3b99f;
+	font-family: "Franklin Gothic Bold";
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-size: 30px;
+	color: #d3b99f;
+	font-family: "Arial Black";
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 15px;
+	Font-family: "Arial Black";
+	margin-left: auto;
+	line-height: normal;
+	color: #b49286;
+	margin-bottom: 30px;
+}
+
+li {
+	margin-bottom: auto
+}
+
+footer {
+	text-align: center
+}
+
+.select {
+	color: #b49286;
+	background: #210203;
+}
+
+nav p {
+	text-align: center;
+	background-color: #210203;
+}
+
+ul li {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #000000;
+	padding: auto;
+	margin-top: 5px;
+	background-color: #D3B99F;
+}
+
+.Feature {
+	width: 900px;
+	margin: auto;
+	background-color: #210203;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	box-shadow: 15px 10px #4A2C22;
+}
+
+img {
+	padding: 4px;
+	background-color: #b49286;
+	border: 4px, solid, #000000;
+}
+
+.gallery {
+	margin: 5px;
+}

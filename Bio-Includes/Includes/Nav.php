@@ -1,0 +1,1 @@
+<p><a href="Index.php" class="select">Home</a> | <a href="About me page.php" class="select">About Me</a> | <a href="Image Gallery.php" class="select">Image Gallery</a> | <a href="contact.php" class="select">Contact Me</a> | <a href="resume.php" class="select">Resume</a></p>
