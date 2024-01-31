@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #9F0430;
+}
+
+#wrapper {
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+header, div, h1, h2, #board, #player, #imgleft, #imgright, #logo {
+	padding: .625em;
+}
+
+header, #players, #board {
+	background-color: black;
+	overflow: hidden;
+}
+
+h1, h2 {
+	color: white;
+}
+
+.playername, .playerscore, .score {
+	background-color: white;
+	color: black;
+	padding: .625em;
+	width: 20%;
+	float: left;
+	margin-left: 1.0em;
+}
+
+#logo {
+	position: absolute;
+	left: 35%;
+}
+
+#imgright {
+	float: right;
+}
+
+#imgleft {
+	float: left;
+}
+
+#players {
+	clear: both;
+	margin-top: .625em;
+	margin-bottom: .625em;
+}
+
+header {
+	overflow: hidden;
+}
+
+h1 {
+	width: 20%;
+	margin: auto;
+	border: medium double white;
+}
+
+#board {
+	clear: both;
+	text-align: center;
+}
+
+.left, .center, .right {
+	float: left;
+}
+
+.left {
+	clear: left;
+}
+
+#board img {
+	border: red solid medium;
+	margin-left: 1.5em;
+}
+
+.playername {
+	clear: left;
+}
+

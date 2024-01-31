@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+	background-image:url(images/space_bg.gif);
+}
+
+h1 {
+	border-bottom: 4px #fff solid;
+	color: #fff;
+	padding: 6px 0 6px 10px;
+	background: #330C6B; /* For browsers that do not support gradients */
+    background: linear-gradient(#722D95, #330C6B); /* Standard syntax */
+}
+
+h2 {
+	color: teal;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.featured-box {
+	background-color: #285B4C;
+	color: #fff;
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+#wrapper {
+	width: 920px;
+	background-color: #BBD293;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 20px 40px;
+	border: 3px #0A1068 dashed;
+	border-radius: 20px;
+	overflow:auto;
+
+}
+
+.planet-images {
+	border-radius: 10px;
+	box-shadow: 5px 5px 7px #1A0D0D;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+.alignright {
+	float:right;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
