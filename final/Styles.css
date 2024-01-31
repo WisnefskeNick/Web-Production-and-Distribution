@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+
+h1 {
+	font-size: 80px ;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	border-radius: 15px;
+	font-family: 'Alegreya SC', serif;
+	font-weight: bold 15px;
+}
+
+h2 {
+	background-color: #10508C;
+	font-size: 50px;
+	color: black;
+	font-family: 'Alegreya SC', serif;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+	border-radius: 5px;
+	border: black solid 5px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h3 {
+	font-size: 35px;
+	color: #131313;
+	font-family: 'Alegreya SC', serif;
+	background-color: #10508C;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 5px;
+	border: black solid 5px;
+	width: 90%;
+	margin: 5px 5%;
+}
+
+h4 {
+	font-size: 50px;
+	color: black;
+	font-family: 'Alegreya SC', serif;
+	margin-bottom: 5px;
+	background-color: #10508C;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 5px;
+	border: black solid 5px;
+}
+
+p {
+	font-size: 25px;
+	font-family: 'Alegreya SC', serif;
+	line-height: normal;
+	color: black;
+	background-color: #10508C;
+	font-weight: bold;
+	border-radius: 5px;
+	border: black solid 5px;
+}
+
+li {
+	margin-bottom: auto;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Alegreya SC', serif;
+}
+
+footer {
+	text-align: center;
+	margin: 5px;
+	font-family: 'Alegreya SC', serif;
+}
+
+.select {
+	color: black;
+	font-weight: bold;
+}
+
+.select2 {
+	color: black;
+	font-weight: bold;
+	text-decoration: none
+}
+
+.select2 {
+	color: white;
+	font-weight: bold;
+	text-decoration: none
+}
+
+nav p {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+	border-radius: 15px;
+}
+
+ul li {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+nav {
+	margin-top: 125px;
+	padding-bottom: 5px;
+	border-radius: 15px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#wrapper {
+	width: 96%;
+	margin: auto;
+	margin-right: auto;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #2F4858;
+	padding: 10px 20px;
+	background-color: darkgray;
+	border-radius: 50px;
+	position: relative;
+}
+
+.Feature {
+	width: 35%;
+	margin: 10px;
+	background-color: #008ea1;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	box-shadow: 15px 10px #4A2C22;
+}
+
+.align-left {
+	float: left;
+	flex-wrap: wrap;
+}
+
+.align-right {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.flex {
+	display: flex;
+}
+
+.cont {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+section {
+	width: 10%;
+	float: left;
+}
+
+.column {
+	display: inline-table;
+	width: 30%;
+	border-radius: 5px;
+	box-shadow: 5px 5px #2f4858;
+	padding: 5px;
+	border: solid black 5px;
+	margin: 0 1% 20px;
+	flex-wrap: wrap;
+	background-color: #3A7EA6;
+	min-height: 600px;
+}
+
+.combine {
+	background-color: #2D7CB1;
+}
+
+.plan {
+	width: 45%;
+	margin: 10px;
+	background-color: #2D7CB1;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	box-shadow: 15px 10px #2f4858;
+	float: right;
+	border: solid 5px black;
+}
+
+.main {
+	margin: 10px 1% 20px;
+	background-color: #2D7CB1;
+	padding: 5px;
+	border-radius: 15px;
+	box-shadow: 5px 5px #2f4858;
+	overflow: hidden;
+	text-align: center;
+	border: black solid 5px;
+	width: 98%;
+}
+
+.title {
+	margin: 10px 1% 20px;
+	background-color: #2D7CB1;
+	padding: 5px;
+	border-radius: 15px;
+	box-shadow: 5px 5px #2f4858;
+	display: inline-block;
+	width: 98%;
+	border: black solid 5px;
+}
+
+.form {
+	float: left;
+	width: 50%;
+	border-radius: 5px;
+	box-shadow: 5px 5px #2f4858;
+	padding: 5px;
+	border: solid black 5px;
+	height: auto;
+}
+
+body {
+	background-color: dimgray;
+}
+
+ol li {
+	font-size: 50px;
+	margin: 5px 10px;
+}
+
+.rof {
+	margin: 10px;
+	background-color: #2D7CB1;
+	padding: 10px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	box-shadow: 15px 10px #2f4858;
+	border: solid 5px black;
+	text-align: center;
+	width: 98%;
+}
+
+.button {
+	margin: 10px 25% 5px;
+	width: 50%;
+	font-size: 35px;
+	color: black;
+	font-family: 'Archivo Black', sans-serif;
+	background-color: #10508C;
+	font-weight: bold;
+	border-radius: 5px;
+	border: black solid 5px;
+	flex-wrap: wrap;
+}
+
+.button:hover {
+	color: white;
+	background-color: black;
+}
+
+label {
+	color: black;
+	font-family: 'Archivo Black', sans-serif;
+	background-color: #10508C;
+	font-weight: bold;
+	border-radius: 5px;
+	border: black solid 5px;
+	margin-right: 5px;
+	font-size: 30px;
+	margin-bottom: 5px;
+	display: inline-table;
+	width: 400px;
+	flex-wrap: wrap
+}
+
+input, select {
+	height: 50px;
+	width: 400px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.imgs {
+	margin: 10px;
+	border: 5px black solid;
+}
+
